@@ -3,13 +3,11 @@
 
 <head>
 
-    <!-- google verification start  -->
-    <meta name="google-site-verification" content="BQWQA8W992udkUo6KrbJ4rkJ7eqAhrXCt67efgq_L9o" />
-    <!-- google verification end  -->
+   
     <meta charset="utf-8">
     <title>CTIHS</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="ctiemt,ctiemt college , college of engineering " name="keywords">
+    <meta content="ctihs,ctihs college , college of higher studies " name="keywords">
     <meta content="college " name="description">
 
     <!-- Favicon -->
@@ -150,7 +148,7 @@ include("inc/header.php")
                 <div class="col-lg-6 wow fadeInUp d-none d-md-block" data-wow-delay="0.1s" style="min-height: 500px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100 rounded" src="img/About_Home.png"
-                            alt="CTIEMT Logo" style="object-fit: cover;">
+                            alt="ctihs Logo" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
