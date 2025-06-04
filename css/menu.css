@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background: white;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.8);
+  padding: 0 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.logo-image {
+    height: 50px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.5rem; /* Reduced gap between items */
+  align-items: center;
+}
+
+.nav-item {
+  position: relative;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px; /* Reduced font size */
+  font-weight: 500;
+  padding: 0.4rem 0.8rem; /* Reduced padding */
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+
+/* Base underline styles */
+.nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+/* Hover underline */
+.nav-item:hover::after {
+  transform: scaleX(1);
+}
+
+/* Active underline */
+.nav-item.active::after {
+  transform: scaleX(1);
+}
+
+/* Triangle for active state */
+.active-indicator {
+  position: absolute;
+  bottom: -14px; /* Adjusted to sit on the underline */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-item.active .active-indicator {
+  opacity: 1;
+}
+
+.dropdown-arrow {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 4px;
+  position: relative;
+}
+
+.dropdown-arrow::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #333;
+  border-bottom: 2px solid #333;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+.nav-item:hover .dropdown-arrow::before {
+  transform: rotate(-135deg) translateY(-3px);
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  min-width: 220px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  padding: 0.5rem 0;
+  font-weight: bolder;
+}
+
+.nav-item:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background: #f8f9fa;
+  color: #1a1a1a;
+}
+
+/* Hamburger Menu */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+    gap: 0.3rem; /* Further reduced gap for mobile */
+    padding-top: 70px;
+    transition: 0.3s ease;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .nav-item {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .nav-link {
+    padding: 0.3rem 0.6rem; /* Further reduced padding for mobile */
+    width: 100%;
+    font-size: 13px; /* Further reduced font size for mobile */
+  }
+
+  .dropdown {
+    position: static;
+    box-shadow: none;
+    padding-left: 2rem;
+    display: none;
+  }
+
+  .nav-item:hover .dropdown {
+    display: block;
+  }
+
+  /* X animation */
+  .menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+}
+@media screen and (max-width: 1415px) {
+  .nav-container {
+
+    gap: 1rem;
+
+  }
+   
+  
+  .nav-links {
+    gap: 0.4rem; /* Reduce spacing between links */
+  }
+
+  .nav-link {
+    font-size: 12px; /* Adjust font size */
+    padding: 0.3rem 0.7rem; /* Reduce padding */
+  }
+
+}
+@media screen and (max-width: 1250px) {
+    
+    .nav-links {
+      gap: 0.5rem; /* Reduce spacing between links */
+    }
+  
+    .nav-link {
+      font-size: 14px; /* Adjust font size */
+      padding: 0.4rem 0.8rem; /* Reduce padding */
+    }
+  
+    .dropdown {
+      min-width: 180px; /* Reduce dropdown width */
+    }
+  }
+/* Mobile Styles for screens below 1100px */
+@media screen and (max-width: 1100px) {
+    /* Display the menu toggle icon */
+    .menu-toggle {
+      display: flex;
+    }
+  
+    /* Hide nav-links by default */
+    .nav-links {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+      flex-direction: column;
+      gap: 0;
+      padding-top: 70px;
+      transition: 0.3s ease;
+    }
+    .nav-container {
+      gap: 40rem; /* Reduce gap between items */
+    }  
+    /* Show nav-links when menu-toggle is active */
+    .nav-links.active {
+      right: 0;
+    }
+  
+    /* Adjust nav-item for vertical layout */
+    .nav-item {
+      width: 100%;
+      height: auto;
+      padding: 0;
+    }
+  
+    /* Adjust nav-link for full width */
+    .nav-link {
+      padding: 1rem 2rem;
+      width: 100%;
+    }
+  
+    /* Hide dropdown by default */
+    .dropdown {
+      position: static;
+      box-shadow: none;
+      
+      display: none;
+    }
+  
+    /* Show dropdown on hover */
+    .nav-item:hover .dropdown {
+      display: block;
+    }
+  
+    /* Menu toggle icon X animation */
+    .menu-toggle.active span:nth-child(1) {
+      transform: rotate(45deg) translate(8px, 8px);
+    }
+  
+    .menu-toggle.active span:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .menu-toggle.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -7px);
+    }
+  }
+    
+  @media screen and (max-width: 768px) {
+    .nav-container {
+      gap: 25rem; /* Reduce gap between items */
+    } 
+    .dropdown {
+     padding-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+    .nav-container {
+      gap: 10rem; /* Reduce gap between items */
+    } 
+  }
+
