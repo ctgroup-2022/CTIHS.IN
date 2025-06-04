@@ -1,0 +1,19 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/username/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R .htaccess $DEPLOYPATH
+    - /bin/cp -R .well-known $DEPLOYPATH || true
+    - find $DEPLOYPATH -name "*.php" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -name "*.html" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -name "*.css" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -name "*.js" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -name "*.png" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -name "*.jpg" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -name "*.jpeg" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -name "*.gif" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -name "*.ico" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -name "*.webp" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -type d -exec chmod 755 {} \;
+    - chmod 644 $DEPLOYPATH/.htaccess
