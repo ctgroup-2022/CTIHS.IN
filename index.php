@@ -173,9 +173,7 @@ include("inc/header.php")
     <!-- Director Message End -->
 
     <!-- Course Table Start-->
-    <?php 
-include("inc/coursetab.php") 
-?>
+   
     <!-- Course Table End -->
 
     <!-- <h1 class="text-center">Our Recruitment Partners</h1> <hr>

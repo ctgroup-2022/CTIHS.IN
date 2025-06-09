@@ -135,12 +135,11 @@ include("inc/menu.php")
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/principal.png" alt="" style="height:80px; width: 30px;">
-                    </div>
+                        <img src="img/principal.png" alt="" class="h-100 w-90">
                 </div>
             </div>
         </div>
-    </div> -->
+    </div> 
     <!-- Director Message End -->
 
     <!-- Course Table Start-->

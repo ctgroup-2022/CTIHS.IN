@@ -52,7 +52,7 @@
                         <a href="physio.php" class="dropdown-item">Physiotherapy</a>
                          <a href="comapp.php" class="dropdown-item">Computer Applications</a>
                           <a href="arts.php" class="dropdown-item">Humanities</a>
-                           <a href="inc/jnmc.php" class="dropdown-item">Journalism & Mass Communication</a>
+                           <a href="jnmc.php" class="dropdown-item">Journalism & Mass Communication</a>
                     </div>
                 </div>
 

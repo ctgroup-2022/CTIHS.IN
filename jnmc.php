@@ -139,12 +139,18 @@ to handle the new demands of a world that is more digitalized. <br>
         <h3 class="text-center">HOD's Desk</h3><hr>
         <div class="row">
             <div class="col-md-5">
-                <img src="img/HOD1.png" alt="" class="h-75 w-100">
+                <img src="HOD21.png" alt="" class="h-75 w-90">
             </div>
             <div class="col-md-7">
-                <p align="justify">As head of Department of Physiotherapy, I would like to take this opportunity to commend each and every one of you for choosing the field of physiotherapy. This noble profession requires dedication, compassion, and a genuine desire to improve the lives of others through physical rehabilitation. By embarking on this journey, you have already shown your commitment to making a positive impact on the well-being of individuals. Physiotherapy is a dynamic and evolving field, constantly pushing the boundaries of what is possible in the realm of rehabilitation. As students, it is crucial that you stay up to date with the latest advancements, research, and techniques in the field. Continuously expand your knowledge base and strive for excellence in your studies. Remember, learning extends beyond the walls of the classroom. Take advantage of every opportunity to engage in practical experiences, internships, and community outreach programs. These hands-on encounters will not only enhance your understanding but also allow you to develop essential skills and empathy towards patients. In addition to academic pursuits, I encourage you to foster a collaborative and supportive environment within our department. Form study groups, engage in discussions, and share your ideas and insights. By working together, we can create a vibrant and stimulating atmosphere that nurtures growth and innovation. Furthermore, I urge you to embrace a holistic approach to healthcare. Physiotherapy is not just about treating physical ailments; it is about recognizing the interconnectedness of the mind, body, and spirit. Encourage your patients to adopt healthy lifestyles, advocate for preventive measures, and promote overall wellness. Each patient you encounter has a unique story and journey. By listening attentively, showing empathy, and treating every individual with respect, you can make a profound difference in their lives. I have full confidence in your abilities and believe that each of you has a potential to become exceptional physiotherapists.
+                <p align="justify">The goal of our department is to provide practical learnings as well as
+academic studies to our students that help them to be a professional in
+their fields. We provide hand on practice on each and every equipment
+with brief knowledge related to its subject. There are various activities
+organized by our department to boost self-confidence and enhance
+caliber to perform in front line in all students. We regularly organize field
+visits to different media places time on time.
 </p>
-                <h4 class="text-end">Dr. Arun</h4>
+                <h4 class="text-end">Mr. Koshal Gautam</h4>
             </div>
        </div>  
         </div>
@@ -201,61 +207,34 @@ to handle the new demands of a world that is more digitalized. <br>
       <!-- Learning starts -->
       <div class="tab-pane fade show" id="list-lp" role="tabpanel" aria-labelledby="list-lp-list">
         <h3 class="text-center">Learning Process & Methodology</h3>
-            <p align="justify">Learning Process:
-		- The curriculum is designed to blend theoretical knowledge with practical applications.
-		- Emphasis on evidence-based practice, ensuring students are trained to provide the highest standards of patient care.
-	- Integration of clinical training with theoretical instruction.
-	- Utilization of modern teaching aids, such as interactive digital platforms, simulation labs, and virtual learning environments.
+            <p align="justify">Department provides quality education to the students which includes
+Lectures, Case Studies, tutorials as well as hands on practice for soft
+skills. The Institute provides an excellent academic environment with
+focus on self- learning. The teaching and learning methodologies follow
+a rigorous regime that involves intensive and extensive working on
+challenging academic tasks. The teaching is emphasized through
+student centered and discovery method of learning in place of the
+conventional teacher centered learning. Peer to Peer learning is
 
-            </p>
-              <p align="justify">Methodology:
-	- Lectures and Seminars: Regularly scheduled classes that cover foundational and advanced concepts in physiotherapy.
-	- Practical Sessions: Hands-on training in well-equipped labs to practice techniques and skills.
-	- Clinical Rotations: Placements in hospitals and clinics to gain real-world experience.
-	- Workshops and Conferences: Opportunities to learn from experts in the field and stay updated on the latest advancements.
-	- Research Projects: Encouraging participation in research to foster a deep understanding of physiotherapy principles and contribute to the body of knowledge.
-	- Group Discussions and Case Studies: Collaborative learning to enhance critical thinking and problem-solving skills.
-
-
+encouraged. Exposure to state- of- the –art infrastructure, technology,
+professional and field experiences are brought to students through
+visiting faculties from various Industry and Mentoring exercises.
+Interactive Teaching methods (use of internet, CDs, Projectors, Power
+point presentation) by the faculties help the students in better
+understanding of the topics. ICT enabled teaching helps both slow and
+advanced learners. Students are encouraged to participate in
+competitions like quiz, debates, elocution; versification etc. at various
+levels. We provide quality education to students through class room
+teaching, career counseling, Personality Development and Spoken
+English Programs and make them able to compete in the job market. At
+the end of each period students are allowed to individually meet the
+teacher in order to resolve doubts on topics taught in a class room.
+Faculty Members are encouraged to organize departmental seminars
+and workshops with active involvement of students facilitating
+collaborative and independent learning among students.
             </p>
             
-            <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i>Case Studies </strong>
-            </p> 
-            <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Team Activities </strong>
-            </p> 
-            <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Experiential Learning </strong>
-            </p> 
-            <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Continuous Evaluation </strong>
-            </p> 
-            <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Guest Lecture </strong>
-            </p> 
-            <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Group Discussions</strong>
-            </p> 
-            <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Extempore </strong>
-            </p> 
-            <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i>Management Games </strong>
-            </p> 
-            <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i>Mock Interviews</strong>
-            </p> 
-            <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i>Evaluation Process</strong>
-            </p> 
-            <strong>Internal Assessment is based on: 
            
-
-Regular assessments throughout the semester including seminars, practical exams and viva voce.
-
-            </strong>
-            </p> 
       </div>
       <!-- Learning Ends -->
       <!-- Syllabus -->
@@ -271,26 +250,18 @@ Regular assessments throughout the semester including seminars, practical exams 
           <div class="card mb-3" style="max-width:100%">
             <div class="row g-0">
             <div class="col-md-4">
-                <img src="lab1.jpg" class="img-fluid rounded-start" alt="...">
+                <img src="lab33.png" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title">Physiotherapy Lab:     </h5>
-                        <p class="card-text" align="justify">Physiotherapy Lab includes the assessment and treatment of all
-musculoskeletal problems. This includes any injury to the muscles,
-bones or joints in the body, including the back and neck. The
-physiotherapists at the lab have years of experience in many different
-areas of physiotherapy. The physiotherapy lab is a versatile area where
-students can engage in different methods of learning to develop their
-clinical reasoning, practical skills and problem-solving approach. They
-will be able to practice their assessment &amp; treatment skills in a wide
-range of simulated case scenarios in a realistic and safe environment.
-The students will also be able to practice and use a variety of equipment
-including plinths, walking aids, exercise equipment, adjuncts to
-
-neurological rehabilitation and respiratory equipment such as non-
-invasive ventilation, adjuncts to airway clearance and airway
-management training mannequins.</p>
+                    <h5 class="card-title">Journalism and Mass Communication Lab:     </h5>
+                        <p class="card-text" align="justify">The Journalism and Mass Communication Lab is equipped with
+the audio and video production equipment such as camera, basic
+lights, console, Microphones etc. It is maintained on industry
+standards. Students are working on these equipment to practice
+different journalism related activities like anchoring, news reading,
+photography, editing etc. Students also make documentaries with
+the help of these equipment and editing process is done in studio.</p>
                 </div>
             </div>
         </div>
