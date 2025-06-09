@@ -105,43 +105,38 @@ include("inc/header.php")
     <!--Carousel include End  -->
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5 >
         <div class="container">
             <div class="row g-5">
                 <!-- Text Section -->
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <!-- Gradient and Bold Title -->
-                    <h6 class="section-title h6 bg-white text-start pe-3"
+                    <h1 class="section-title h6 bg-white text-start pe-3"
                         style="font-weight: 900; text-transform: uppercase; color: #21559B;">
                         About Us
-                    </h6>
-                    <h1 class="mb-4 head1"
+                    </h1>
+                    <h4 class="mb-4 head1"
                         style=" text-transform: uppercase; background: linear-gradient(90deg, #FF7E5F, #FEB47B); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
                         Welcome to CTIHS
-                    </h1>
+                    </h4>
                     <!-- Paragraphs -->
                     <p align="justify">
-                        CT Institute of Higher Studies, Jalandhar was established in the year 2004
-                        by the
-                        CT Educational Society with the objective of creating leading Research and Development
-                        facilities in the
-                        field of Higher Studies. The institute is approved by AICTE and affiliated
-                        to Punjab
-                        Technical University, Jalandhar. The institute currently offers 5 UG programs in various
-                        disciplines of engineering
-                        and 4 PG programs in various disciplines of Higher Studies.
+                        CT Institute of Higher Studies (CTIHS) is a premier institute of higher education in the region
+                        with a legacy of excellence in academics and holistic development. <br> 
+                        Established in 2004, CTIHS has been at the forefront of providing quality education and
+                        fostering innovation. <br>
+                       In the age of “survival of the fittest”, CT Institute of Higher Studies has been established with a vision to emerge as one of the top-ranking institute and to achieve recognition as a pioneer in the field of Management, Computers, Commerce, Humanities, Journalism & Mass Communication education. <br>
+                       The institute is affiliated to Guru Nanak Dev University, Amritsar. <br>
+                       The motive of our institute is to inspire, educate, inculcate and equip the students to hold key positions, build strong organizations and elevate the learning to create long lasting values.<BR>
+                        We currently offer 09 courses related to various fields in which 08 are full time degree courses and one is a Diploma Course.<br>
+                        The admissions to various UG programs in our institute are offered as per the eligibility criteria laid down by GNDU. <BR>
+                        CTIHS, being a prominent part of the prestigious CT Group, is proud of its highly competent, committed, well-experienced and qualified staff. <BR>
+                        The culture prevailing at CT Group fosters excellence and ground breaking innovations. <BR>
+                        We also provide curricular, co-curricular and extra-curricular activities here for the students. It helps students in becoming the best talent for various fields of academia, industry and research. <BR>
+                        The best and brightest young students pursue their aspirations at CTIHS. It is playing a pioneering role in professionalizing education through its undergraduate programs. <BR>
+                        Our institute is committed to ethical and social responsibilities in the field of education.
                     </p>
-                    <p align="justify">
-                        Admissions to the various UG/PG programs at CTIHS are offered as per the eligibility criteria
-                        laid down by PTU.
-                        One-third of the students in the first year of the course are selected directly under the
-                        Management quota, while
-                        the remaining seats are filled by the University based on counseling. Lorem ipsum dolor sit
-                        amet, consectetur
-                        adipisicing elit. Tempora porro aliquam impedit vero a, soluta iure assumenda? Aliquid
-                        reiciendis, aspernatur
-                        expedita possimus, excepturi, laborum minus magnam nobis praesentium a fugiat.
-                    </p>
+                   
                 </div>
 
                 <!-- Image Section -->
@@ -158,7 +153,7 @@ include("inc/header.php")
     <!-- About End -->
 
     <!-- Director Massge Start -->
-    <!-- <div class="container-xxl py-5">
+    <!--<div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 

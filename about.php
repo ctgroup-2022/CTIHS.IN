@@ -2,19 +2,24 @@
 <html lang="en">
 
 <head>
+
+   
     <meta charset="utf-8">
-    <title>CTIEMT</title>
+    <title>CTIHS</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="ctihs,ctihs college , college of higher studies " name="keywords">
+    <meta content="college " name="description">
 
     <!-- Favicon -->
     <link href="img/favicon1.ico" rel="icon">
 
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -29,112 +34,206 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+    /* $animationSpeed: 40s; */
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-250px * 7))
+        }
+    }
+
+    .slider {
+        height: 100px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: auto;
+
+        .slide-track {
+            animation: scroll 60s linear infinite;
+            /* animation: scroll $animationSpeed linear infinite; */
+            display: flex;
+            width: calc(250px * 14);
+        }
+
+        .slide {
+            height: 100px;
+            width: 250px;
+        }
+    }
+
+    .h6,
+    .head1 {
+
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        /* Bold */
+
+
+    }
+    </style>
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
     <!-- Spinner End -->
-
-
     <!-- Navbar include start -->
-<?php 
+    <?php 
 include("inc/menu.php") 
 ?>
-<!-- Navbar include End -->
+    <!-- Navbar include End -->
 
-
-
-    <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+    <!-- Carousel include start -->
+ <!-- Header Start -->
+ <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
                     <h1 class="display-3 text-white animated slideInDown">About Us</h1>
-                    
+                    <!-- <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                        </ol>
+                    </nav> -->
                 </div>
             </div>
         </div>
     </div>
     <!-- Header End -->
+    <!--Carousel include End  -->
 
+    
 
-  
-
-    <!-- About Start -->
-    <div class="container-xxl py-5">
+    <!-- Director Massge Start -->
+    --<div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/logo/CTIEMT LOGO1.png" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to CTIEMT</h1>
-                    <p align="justify">CT Institute of Engineering, Management & Technology, Jalandhar got established in year 2004 by the CT Educational Society with the objective of creating leading Research and Development facilities in the field of Engineering, Management & Technology.  The institute is approved by AICTE and affiliated to Punjab Technical University, Jalandhar. The institute currently offers regular 05 UG programmes in various disciplines of engineering and 04PG programme in various disciplines of Engineering, Management & Computer Applications. The admissions to the various UG/PG programmes at CTIEMT are offered as per the eligibility criterion laid down by PTU. One third strength of the students in the first year of the course is by direct selection under the Management quota, while remaining seats are filled up by the University based on the counselling scheduled by the university.</p>
-                    
-                </div>
-                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
-                    <h3 class="section-title bg-white text-start text-primary pe-3">Principal</h3>
-                    <h4 class="mb-4">DR. GURPREET SINGH</h4>
-                    <p align="justify">
-                    The establishment stones of CTIEMT is laid on the epitome of scholastic pursuit and excellence. Excellence in any work can be achieved with extreme commitment, hard work, and firmness. We, at CTIEMT have made this maxim our axiom and our way of life in every single activity in the campus. As you desire to walk your journey of life in our institutions, which has a vibrant atmosphere and a vigorous environment, be constructive, be ingenious and be committed, for you will see yourself transformed with a new learning experience and develop your progressive skills. Our highly educated, experienced and motivated staff along with committed team of management will implement the most validated methods and means of teaching-learning process to provide the quality education and academic excellence. We are on an ambitious journey to become one of world's top research-intensive institutions. Join our portals, create new knowledge, find new portfolios, help thousands of students, define their future and change the world. I encourage you to visit our campus and learn more about the opportunities available to you at our institutions.
-                    </p>
-                   
-                </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/director sir.webp" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
-                  <center>  <h3 class="section-title bg-white  text-primary pe-3 text-center" >CTIEMT's  Departments</h3></center>
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                <a href="https://ctiemt.edu.in/ai&ml-dept.php" target="_blank"><img src="img/department/Artificial-Intelle.webp" class="h-100 w-100" alt=""></a> 
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                <a href="https://ctiemt.edu.in/ce-dept.php" target="_blank"><img src="img/department/Civil Engineering.png" class="h-100 w-100" alt=""></a> 
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                <a href="https://ctiemt.edu.in/cse-dept.php" target="_blank"><img src="img/department/cse.png" class="h-100 w-100" alt=""></a> 
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                <a href="https://ctiemt.edu.in/ece-dept.php" target="_blank"><img src="img/department/ece.png" class="h-100 w-100" alt=""></a> 
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                <a href="https://ctiemt.edu.in/me-dept.php" target="_blank"><img src="img/department/me.png" class="h-100 w-100" alt=""></a> 
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                <a href="https://ctiemt.edu.in/bm-dept.php" target="_blank"><img src="img/department/mba.png" class="h-100 w-100" alt=""></a> 
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                <a href="https://ctiemt.edu.in/ca-dept.php" target="_blank"><img src="img/department/mca.png" class="h-100 w-100" alt=""></a> 
-                </div>
+                
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">•	FROM THE PRINCIPAL’S DESK: </h6>
+                    <h3 class="mb-4">DR. SEEMA ARORA</h3>
+                    <p align="justify">CT Group of Institutions is a progressive edifying organization, dedicated to the pursuit of excellence. A galaxy of educational institutions from pre-schools to postgraduate institutes, with world class infrastructure, salubrious and well maintained Wi-Fi enabled campuses, well equipped libraries, high-tech laboratories, dedicated and veteran academician support, an ideal and conducive environment for endowing education that can be benchmarked against the paramount in world. We are affiliated with GNDU, Amritsar and our institute is amongst one of the finest colleges in north India. The institute is working relentlessly to induce dynamism in its students to make them versatile leaders through industry interactions, live case studies and visiting faculty with profound industry knowledge. They are exposed to happenings of the corporate field, academic and industry experience as well as young faculty members having a flair for teaching. The phenomenal academic achievements of our students have always added glory to college by securing high university ranks. College has a tradition of excelling in sports and extracurricular activities, in which our students continue to bring us laurels at university, zonal and national levels year after year.  We believe in providing our students an environment, rich in knowledge and supportive for their extracurricular interests. We welcome you to join us and become a partner in our endeavor to generate talented professionals to serve Indian corporate and economy.
 
+</p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/principal.png" alt="" style="height:80px; width: 30px;">
+                    </div>
+                </div>
             </div>
-
         </div>
-    </div>
+    </div> -->
+    <!-- Director Message End -->
+
+    <!-- Course Table Start-->
+
+    <!-- Course Table End -->
+
+    <!-- <h1 class="text-center">Our Recruitment Partners</h1> <hr>
+<div class="slider">
     
-    <!-- About End -->
+	<div class="slide-track">
+		<div class="slide">
+			<img src="img/tieup/360.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/acadecraft.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/agrex.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/anivam.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/asort.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/bajaj.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/gna.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/chc.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/ech.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/education.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/gae.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/capital.webp" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/tieup/HDFC.webp" height="100" width="250" alt="" />
+		</div>
+        <div class="slide">
+			<img src="img/tieup/idfc.webp" height="100" width="250" alt="" />
+		</div>
+        <div class="slide">
+			<img src="img/tieup/infosyss.webp" height="100" width="250" alt="" />
+		</div>
+        <div class="slide">
+			<img src="img/tieup/Klocrix.webp" height="100" width="250" alt="" />
+		</div>
+        <div class="slide">
+			<img src="img/tieup/Kotak.webp" height="100" width="250" alt="" />
+		</div>
+        <div class="slide">
+			<img src="img/tieup/logo.webp" height="100" width="250" alt="" />
+		</div>
+        <div class="slide">
+			<img src="img/tieup/makestudy.webp" height="100" width="250" alt="" />
+		</div>
+        <div class="slide">
+			<img src="img/tieup/NES Global Talent logo.webp" height="100" width="250" alt="" />
+		</div>
+	</div>
+</div> -->
 
 
-   <!-- Footer section starts -->
-<?php
-include('inc/footer.php');
+
+
+
+
+    <!-- footer include start -->
+    <?php 
+include("inc/footer.php") 
 ?>
-<!-- Footer section ends -->
-    
+    <!--footer include End  -->
+
+
+
+
+
+
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" style="background:#30416A"><i
+            class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

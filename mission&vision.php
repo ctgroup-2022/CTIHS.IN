@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CTIEMT</title>
+    <title>CTIHS</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -67,16 +67,16 @@ include("inc/menu.php")
     <div class="container">
     <div class="row g-5">
     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-    <h3><strong>CTIEMT VISION & MISSION</strong></h3>
+    <h3><strong>CTIHS VISION & MISSION</strong></h3>
     <hr>
     
     <h6>Vision</h6>
     <p align="justify">To be a leading Institution in providing quality education that prepares students to be responsible citizens.</p>
     <h6>Mission</h6>
     <ul align="justify">
-        <li>To provide dynamic learning environment that enables students to excel in their chosen fields of study.</li>
-        <li>To develop in students a sense of social responsibility and commitment to make a positive difference in their communities.</li>
-        <li>To enable high-quality education delivered by dedicated academicians who act as industry liasions.</li>
+        <li> To instill in students ethical values and life skills to prune them to be responsible citizens of the nation. </li>
+        <li>To educate students by providing them quality education through qualified and experienced academicians. </li>
+        <li>To provide a multi-dimensional learning platform and enable learners to excel in their respective fields.</li>
     </ul>    
 </div>
     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">

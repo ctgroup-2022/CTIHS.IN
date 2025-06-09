@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CTIEMT</title>
+    <title>CTIHS</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -55,7 +55,7 @@ include("inc/menu.php")
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Department of Artificial Intelligence & Machine Learning</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Department of Commerce & Management</h1>
                     <!-- <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
@@ -76,16 +76,17 @@ include("inc/menu.php")
       <a class="list-group-item list-group-item-action" id="list-vm-list" data-bs-toggle="list" href="#list-vm" role="tab" aria-controls="list-vm">Vision & Mission</a>
       <a class="list-group-item list-group-item-action" id="list-hod-list" data-bs-toggle="list" href="#list-hod" role="tab" aria-controls="list-hod">HOD's Desk</a>
    
-      <!-- <a class="list-group-item list-group-item-action" id="list-course-list" data-bs-toggle="list" href="#list-course" role="tab" aria-controls="list-course">Courses Offered</a> -->
+     <a class="list-group-item list-group-item-action" id="list-course-list" data-bs-toggle="list" href="#list-course" role="tab" aria-controls="list-course">Courses Offered</a>
       <!-- <a class="list-group-item list-group-item-action" id="list-Syllabus-list" data-bs-toggle="list" href="#list-Syllabus" role="tab" aria-controls="list-Syllabus">Syllabus</a> -->
       <a class="list-group-item list-group-item-action" id="list-lp-list" data-bs-toggle="list" href="#list-lp" role="tab" aria-controls="list-lp">Learning Process & Methodology</a>
-      <a class="list-group-item list-group-item-action" id="list-Laboratories-list" data-bs-toggle="list" href="#list-Laboratories" role="tab" aria-controls="list-Laboratories">Laboratories</a>
+      
+     <!-- <a class="list-group-item list-group-item-action" id="list-Laboratories-list" data-bs-toggle="list" href="#list-Laboratories" role="tab" aria-controls="list-Laboratories">Laboratories</a>
       <a class="list-group-item list-group-item-action" id="list-academics-list" data-bs-toggle="list" href="#list-academics" role="tab" aria-controls="list-academics">Academics Activities</a>
-      <!-- <a class="list-group-item list-group-item-action" id="list-visit-list" data-bs-toggle="list" href="#list-visit" role="tab" aria-controls="list-visit">Industrial Visit</a> -->
-      <a class="list-group-item list-group-item-action" id="list-events-list" data-bs-toggle="list" href="#list-events" role="tab" aria-controls="list-events">Events</a>
+      <-- <a class="list-group-item list-group-item-action" id="list-visit-list" data-bs-toggle="list" href="#list-visit" role="tab" aria-controls="list-visit">Industrial Visit</a> -->
+      <!--<a class="list-group-item list-group-item-action" id="list-events-list" data-bs-toggle="list" href="#list-events" role="tab" aria-controls="list-events">Events</a>
       <!-- <a href="pdf/Faculty website.pdf" class="list-group-item list-group-item-action">Faculty List</a> -->
-      <a class="list-group-item list-group-item-action" id="list-faculty-list" data-bs-toggle="list" href="#list-faculty" role="tab" aria-controls="list-faculty">Faculty List</a>
-    </div>
+ <!--<a class="list-group-item list-group-item-action " id="list-about-list" data-bs-toggle="list" href="#list-about" role="tab" aria-controls="list-about">Assesment</a>-->
+         </div>
   </div>
   <div class="col-sm-8 col-md-8">
     <div class="tab-content" id="nav-tabContent">
@@ -93,8 +94,7 @@ include("inc/menu.php")
       <div class="tab-pane fade show active" id="list-about" role="tabpanel" aria-labelledby="list-about-list">
         <h3 class="text-center">About Department</h3><hr>
             <p align="justify"> 
-            The Department of Artificial Intelligence & Machine Learning represents a significant advancement that is rapidly changing a wide range of businesses. Businesses and other organizations going through a digital transformation are confronted with an expanding deluge of data that is both immensely valuable and getting more and harder to gather, manage, and analyze. To handle the enormous amount of data being gathered, mine it for insights, and act upon those insights once they are found, new tools and processes are required. The goal of the AI and ML area is to solve problems that corporations, governments, and regular people face. These solutions are now indispensable. Both educators and students acquire new skills, apply them, and develop applications that meet pressing needs.
-            </p>
+         The Commerce and Management Department offers dynamic environment aspiring to nurture the students with the knowledge, skills, and mind set needed to excel in the world of business. The department is committed to provide a transformative learning experience through well-designed curriculum offering collaboration of interactive classroom environment with field-based experiential. The department aims to attain excellence by building leadership skills and novel solutions among young aspiring corporate leaders through a responsible business leadership emphasis on modern teaching and research approaches that respond to real-world company needs and inspire new thinking.   </p>
       </div>
       <!-- About Department Ends -->
         <!-- Vision & Mission -->
@@ -103,13 +103,16 @@ include("inc/menu.php")
         <div class="row">
           <div class="col-md-12 col-sm-12 col-lg-12">
           <h3>Vision</h3>
-          <p align="justify">To produce globally competent graduates in the field of Artificial Intelligence with zeal for updating according to the latest in the domain.</p>
+          <p align="justify">To be an institution of excellence in commerce and management by providing high quality education to inspire and transform young lives in global community.</p>
           <h3>Mission</h3>
           <p align="justify">
-               1. To create graduates who are highly skilled and driven by a demanding theory and application curriculum that fosters performance and solution strategy. <br>
-               2. To equip the students with fundamental of AI, ML and their off spins and make them ready to adapt to new technologies and scenarios.
+              1. To pioneer in education by contributing to human knowledge which enables the students to have a strong sense of responsibility towards the society and the community.<br>
+               2.Empower and guide students with appropriate training and techniques to shape them for a competitive tomorrow. <br>
+               3.Engage and invest in entrepreneurial activities towards flexibility and innovation. <br>
+               4. Enhance and learning opportunities diversity for students and faculty.
             </p>
 </div>
+
        </div>  
         </div>
         <!-- Vision & Mission -->
@@ -118,11 +121,13 @@ include("inc/menu.php")
         <h3 class="text-center">HOD's Desk</h3><hr>
         <div class="row">
             <div class="col-md-5">
-                <img src="img/department/hodcse.jpg" alt="" class="h-75 w-100">
+                <img src="img/HOD.png" alt="" class="h-75 w-100">
             </div>
             <div class="col-md-7">
-                <p align="justify">Welcome to the Department of Artificial Intelligence & Machine Learning. The department offers a 4 year Bachelors of Technology program in Artificial Intelligence & Machine Learning. Data engineers, automation and optimisation engineers, scientists in natural language processing, game developers, robotics professionals, research scientists, machine learning developers, AI consultants, and machine learning architects are just a few of the positions that artificial intelligence and machine learning have created for expert professionals in large organisations. We aim to offer the best curricular and co-curricular services possible through ongoing brainstorming exercises like coding competitions, seminars, workshops, and extended programmes, enabling our students to use their knowledge and benefit the business. The more general idea of machines being able to perform tasks in a manner that we would deem "smart" is known as artificial intelligence. The focus of AI ML is on the present applications of AI, with the underlying premise that machines should ideally be allowed to access data and learn on their own. The world is going to be affected by artificial intelligence more than by some of the most pervasive inventions in history.</p>
-                <h4 class="text-end">Dr. Sandeep Ranjan</h4>
+                <p align="justify">I take an opportunity to welcome you all to the Department of Commerce and Management of CT Institute of Higher studies, Shahpur, Jalandhar. Department of Commerce and Management came into existence in 2013 to offer B.Com and BBA programs and has been touching heights since then. Today, Department of Commerce has evolved as an axis of excellence. We offer the best quality education to students for shaping their careers for a sustainable corporate world. We aim to provide academically efficient and professionally relevant teaching in the areas of Accounting, Finance, Marketing and HR. Our department equips candidates to face challenges in life and career by providing plethora of value-added programs to enhance their expertise & skills in various aspects.
+The goal is to impart value-based education along with extensive development of positive attitude, excellent communication skills and developing the abilities through training programs and cultural & sports activities etc. Students are also being provided with a platform to put up their innovative ideas, startup plans through Business Plan Competitions to develop their entrepreneurial skills to apply knowledge in order to meet the challenges of future. Our experienced faculty is the strong pillar of the department whose focus is to empower a diverse community of students to nurture their capabilities, transform their lives and find success through high-quality teaching-learning processes. Students are encouraged to get hands-on experience in corporate world through internship projects with reputed organization. On behalf of department, I welcome all vibrant students and wish you good luck to be a part of our journey towards becoming best center of excellence in education.
+</p>
+                <h4 class="text-end">Ms.Neelu</h4>
             </div>
        </div>  
         </div>
@@ -148,40 +153,28 @@ include("inc/menu.php")
                     <tr>
                         <th>S. No.</th>
                         <th>Program</th>
-                        <th>Specialization</th>
-                        <th>Duration</th>
+                        <!--<th>Specialization</th>-->
+                       <!-- <th>Duration</th>-->
                         <th>Eligibility</th>
-                        <th>Intake</th>
-                        <th>Admission Through</th>
+                       <!-- <th>Intake</th>-->
+                        <!--<th>Admission Through</th>-->
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1.</td>
-                        <td>B. Tech</td>
-                        <td>Mechanical Engineering</td>
-                        <td>4 years</td>
-                        <td>10+2 (Non-medical)</td>
-                        <td>30</td>
-                        <td>JEE, IKG PTU Counseling, Management Quota</td>
+                        <td>B.COM(Bachelor of Commerce)</td>
+                        <td>10+2 or Equivalent in any Stream with at least 40% marks in aggregate from Recognized Board </td>
                     </tr>
                     <tr>
                         <td>2.</td>
-                        <td>B. Tech (Lateral Entry)</td>
-                        <td>Mechanical Engineering</td>
-                        <td>3 years</td>
-                        <td>3 years Engineering Diploma</td>
-                        <td>As per IKG PTU Norms</td>
-                        <td>IKG PTU Counseling, Management Quota</td>
+                        <td>BBA(Bachelor of Business Administration)</td>
+                        <td>10+2 or Equivalent in any Stream with at least 40% marks in aggregate from Recognized Board </td>
                     </tr>
                     <tr>
                         <td>3.</td>
-                        <td>M. Tech</td>
-                        <td>Mechanical Engineering</td>
-                        <td>2 years</td>
-                        <td>B. Tech in Mechanical/ Production/ Automobile/ Metallurgy  engineering</td>
-                        <td>9</td>
-                        <td>IKG PTU Counseling, Management Quota</td>
+                        <td>B. Voc(E-Commerce & Digital Marketing)</td>
+                        <td>10+2 or Equivalent in any Stream with at least 40% marks in aggregate from Recognized Board </td>
                     </tr>
                 </tbody>
             </table>
@@ -191,47 +184,45 @@ include("inc/menu.php")
       <!-- Learning starts -->
       <div class="tab-pane fade show" id="list-lp" role="tabpanel" aria-labelledby="list-lp-list">
         <h3 class="text-center">Learning Process & Methodology</h3>
-            <p align="justify">The methodology adopted to ensure proper learning includes Lectures, Tutorials and Practical's in groups of 30 each. Every classroom is equipped with LCD projector.
+            <p align="justify">The pedagogy designed is a blend of practical and theoretical approaches delivered through interactive classroom sessions, discussions, quizzes, assignments, academic/field projects, research assignments, role plays, club activities, and industry participation through guest lectures, workshops, conclaves, seminars, conferences, industrial visits etc. Each student’s interests, abilities, skills, and learnings are meticulously mapped and mentored by the faculty-mentors. Academic excellence, creativity, innovation, and design thinking are all prioritized. Also, overall development is ensured through sports activities, performing arts, and sessions on personality development and human values. In this context, more emphasis is given to the following activities:
             </p>
-            <p align="justify">
-           <strong>Personality Development & Grooming of the students</strong>  The department emphasizes on personality development & grooming of the students in order to develop professional capabilities of the students. The young energetic engineers are chiseled and groomed to meet all the challenges of the swiftly changing environment. Regular Personality development programmes are organized in the department in collaboration with professional organizations. Besides, motivational lectures, Group Discussions, Mock interview sessions etc. are also organized on a regular basis. The students also get an opportunity to nurture talent and allow it to bloom through a congenial atmosphere for that language lab is used.
-            <br>
-            One faculty member has been identified as the class incharge for every class. His/her role is to guide the students for:    
-            </p>
+            
             <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i>Academic Excellence </strong>
+            <i class="bi bi-arrow-right-square-fill text-primary"></i>Case Studies </strong>
             </p> 
             <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Personality Development </strong>
+            <i class="bi bi-arrow-right-square-fill text-primary"></i> Team Activities </strong>
             </p> 
             <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Positive Attitude </strong>
+            <i class="bi bi-arrow-right-square-fill text-primary"></i> Experiential Learning </strong>
             </p> 
             <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Good Behavior </strong>
+            <i class="bi bi-arrow-right-square-fill text-primary"></i> Continuous Evaluation </strong>
             </p> 
             <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Discipline </strong>
+            <i class="bi bi-arrow-right-square-fill text-primary"></i> Guest Lecture </strong>
             </p> 
             <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i>Proper Dress & Uniform </strong>
+            <i class="bi bi-arrow-right-square-fill text-primary"></i> Group Discussions</strong>
             </p> 
             <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Etiquettes & Manners </strong>
+            <i class="bi bi-arrow-right-square-fill text-primary"></i> Extempore </strong>
             </p> 
             <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> Motivation to students to actively participate in extra-curricular activities viz. sports, cultural activities etc. </strong>
+            <i class="bi bi-arrow-right-square-fill text-primary"></i>Management Games </strong>
             </p> 
             <p><strong>
-            <i class="bi bi-arrow-right-square-fill text-primary"></i> To refrain the students not to indulge in ragging & other social evils.</strong>
+            <i class="bi bi-arrow-right-square-fill text-primary"></i>Mock Interviews</strong>
             </p> 
-            Internal Assessment is based on: 
-            <ul>
-                <li>Two Mid Semester Tests (MSTs) </li>
-                <li>Applied Assignments</li>
-                <li>Attendance </li>
-                <li>Discipline & General behavior of the students</li>
-            </ul>
+            <p><strong>
+            <i class="bi bi-arrow-right-square-fill text-primary"></i>Evaluation Process</strong>
+            </p> 
+            <strong>Internal Assessment is based on: 
+           
+
+Regular assessments throughout the semester including seminars, practical exams and viva voce.
+
+            </strong>
             </p> 
       </div>
       <!-- Learning Ends -->

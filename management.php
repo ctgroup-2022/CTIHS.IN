@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CTIEMT</title>
+    <title>CTIHS</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -66,7 +66,7 @@ include("inc/menu.php")
     <div class="container-xxl py-5">
     <div class="container">
     <div class="row g-5">
-    <h3><strong>From Our Managements's Desk</strong></h3>
+    <h3><strong>FROM THE MIGHTY CALAMUM OF </strong></h3>
     <hr>
     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
         <img class="h-100 w-100" src="img/chairman.jpg">
@@ -74,19 +74,18 @@ include("inc/menu.php")
     
     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
         <h6 class="section-title bg-white text-start text-primary pe-3">Chairman- Mr. Charanjit Singh</h6>
-        <p align="justify">Career Transformation is more than CTIEMT's motto. It is the very reason we exist. Through research and scholarship we seek to produce transformative leaders who beat the odds and challenges and win all global battles. And through education 
-        we seek to equip our students to lead lives of meaning and value. This is done by embracing the pursuit of truth as a way to contribute positively to the world. We are committed to helping our students discover their unique talents, develop their potential, 
-        and build their capacity to lead and serve in their respective fields. We strive to prepare our students to be responsible citizens in a global society and to make a positive difference in the lives of others.</p>
-        <p align="justify">We also encourage our students to become lifelong learners and to continue to develop their knowledge and skills throughout their lives. Finally, we foster an environment of mutual respect and support for each individual's growth and development.</p>
+        <p align="justify">Career Transformation is more than CTIHS's motto. It is the very reason we exist. Through research and scholarship we seek to produce transformative leaders who beat the odds, overcome challenges and win global battles.<br> And through education we seek to equip our students to lead lives of meaning and value. This is done by embracing the pursuit of truth as a way to contribute positively to the world.<br> We are committed to helping our students discover their unique talents, develop their potential, and build their capacity to lead and serve in their respective fields. We strive to prepare our students to be responsible citizens in a global society and to make a positive difference in the lives of others.
+<br>We also encourage our students to become lifelong learners and to continue to develop their knowledge and skills throughout their lives. Finally, we foster an environment of mutual respect and support for each individual's growth and development.
+<br>God Bless Us All!
+</p>
     </div>
     <hr>
+     <h3><strong>AUREUM ORSUM FROM THE PEN OF  </strong></h3>
 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
     <h6 class="section-title bg-white text-start text-primary pe-3">Managing Director- Dr. Manbir Singh</h6>
-    <p align="justify">In today’s volatile world where there is cutthroat competition in all fields, careers, and businesses, team CTIEMT is all set with sagacious vision and dreams to enhance, evolve and contribute to plunging learning outcomes in the education system. Understanding the room for monumental growth and potential in the Indian education system, 
-    we muster the courage and credibility to work around the clock. We are ready to set upcoming education benchmarks.</p>
-    <p align="justify">We believe the world is made up of leaders and followers. Followers follow the crowd, whereas leaders carve their paths, map their roads, and embark on success.</p>
-    <p align="justify">CTIEMT is convinced that transformational education can produce world-class leaders capable of overcoming global challenges. Our team members can cultivate such leaders. Leaders with compassion, fortitude, and intellectual prudence.</p>
-    <p align="justify">They will think deeply and strategically, with the tenacity to take on the toughest problems. They will create opportunities to build a brighter future for all.</p>
+    <p align="justify">In today’s volatile world where there is cutthroat competition in all fields, careers, and businesses, team CTIHS is all set with sagacious vision and dreams to enhance, evolve and contribute to learning outcomes in the education system. Understanding the room for monumental growth and potential in an Indian education system, we muster the courage and credibility to work around the clock. We are ready to set upcoming education benchmarks.</p>
+    <p align="justify">We believe the world is made up of leaders and followers. Followers follow the crowd, whereas leaders carve their paths, map their roads, and embark on success. I am convinced that transformational education can produce world-class leaders capable of overcoming global challenges. Our team members can cultivate such leaders. Leaders with compassion, fortitude, and intellectual prudence who will think deeply and strategically, with a tenacity to take on toughest problems to create opportunities to build a brighter future for all.</p>
+    <p align="justify">Best Wishes.</p>
 </div>
     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
         <img class="h-100 w-100" src="img/md.jpg">
@@ -95,11 +94,16 @@ include("inc/menu.php")
     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
         <img class="h-100 w-100" src="img/vc.jpg">
     </div>
+    
     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-    <h6 class="section-title bg-white text-start text-primary pe-3">Vice Chairman- Mr. Harpreet Singh</h6>
-    <p align="justify">The mission of CTIEMT is to provide innovative and comprehensive educational services and resources to learners from various walks of life. We strive to create a positive learning environment where everyone has the opportunity to reach their full potential. We believe in the power of education and the importance of lifelong learning, and we are committed to helping our students To achieve this, we offer a holistic approach to education, incorporating both traditional and innovative learning styles. Our learning community is open to everyone who is invested in 
-    our vision of transforming lives through education, and we are constantly working to expand the resources that we offer.</p>
+        <h6 class="section-title bg-white text-start text-primary pe-3">Chairman- Mr. Charanjit Singh</h6>
+        <p align="justify">The mission of CTIHS is to provide innovative and comprehensive educational services and resources to learners from various walks of life. We strive to create a positive learning environment where everyone has the opportunity to reach their full potential. We believe in the power of education and an importance of lifelong learning, and we are committed to helping our students to achieve this, we offer a holistic approach to education, incorporating both traditional and innovative learning styles. Our learning community is open to everyone who is invested in our vision of transforming lives through education, and we are constantly working to expand the resources that we offer. With an open mind, sky is the limit.
+<br>Welcome to new life!
+
+</p>
     </div>
+    <hr>
+
 
 
 </div>
