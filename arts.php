@@ -271,7 +271,7 @@ responsibility to guide your educational journey. Happy learning!
                       <tr>
                         <td>.</td>
 
-                        <td>Journalism and Mass Communication</td>
+                        <td>Journalism & Mass Communication</td>
 
                         
                     </tr>
