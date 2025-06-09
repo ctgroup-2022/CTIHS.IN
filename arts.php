@@ -271,7 +271,7 @@ responsibility to guide your educational journey. Happy learning!
                       <tr>
                         <td>.</td>
 
-                        <td>Optional Subjects (Any 3)</td>
+                        <td>Journalism and Mass Communication</td>
 
                         
                     </tr>
